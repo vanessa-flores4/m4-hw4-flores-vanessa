@@ -1,0 +1,46 @@
+
+body {
+    background-color: white;
+    color: #911D91;
+    max-width: 900px;
+    margin: auto;
+}
+h1{
+    color: #661466;
+    font-size: 45px; 
+}
+h1, h2{
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+    color: #5c1c9f;
+}
+.mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*below is step 7*/ 
+section.tscareer {
+    text-align: center;
+    width: 90%;
+    height: 250px;
+    color: #5f67e0;
+    font-size: 20px;
+    background: #FAE6FA;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 + ul {
+    color: #5f67e0;
+}
+/*below is step 8*/ 
+article > h3 {
+    color: #5f67e0;
+    text-align: center;
+}
+h3 ~ p {
+    text-align: center;
+}
