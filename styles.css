@@ -1,4 +1,3 @@
-
 body {
     background-color: white;
     color: #911D91;
@@ -21,7 +20,6 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-/*below is step 7*/ 
 section.tscareer {
     text-align: center;
     width: 90%;
@@ -36,9 +34,13 @@ section.tscareer {
 h3 + ul {
     color: #5f67e0;
 }
-/*below is step 8*/ 
-article > h3 {
+article > h2 {
     color: #5f67e0;
+    text-align:left;
+}
+footer {
+    margin: 50px 0;
+    color: purple;
     text-align: center;
 }
 h3 ~ p {
